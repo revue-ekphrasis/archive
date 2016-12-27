@@ -1,0 +1,217 @@
+body
+{
+    background-color: #827B75;
+    overflow-x: hidden;
+}
+a, a:link
+{
+text-decoration: none !important;
+color: #393433;
+}
+
+a:hover
+{
+    color: #393433;
+    text-decoration: none !important;
+}
+
+@font-face
+{
+font-family: Gandhi Sans;
+src: url('Polices/GandhiSans-Regular.otf');
+}
+
+@font-face {
+font-family: Gandhi Sans Italic;
+src: url('Polices/GandhiSans-Italic.otf');
+}
+
+@font-face {
+font-family: Gandhi Sans Bold;
+src: url('Polices/GandhiSans-Bold.otf');
+}
+
+.fond {
+	background-color: white;
+	width: 93%;
+	position: relative;
+	top: 111px;
+	overflow: hidden;
+}
+
+.haut
+{
+    background-color: #827B75;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: -15px;
+    left: 0px;
+}
+
+.menu {
+    color: white;
+    font-family: Gandhi Sans Bold;
+    font-size: 8pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid #827B75;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu2 {
+    color: white;
+    font-family: Gandhi Sans Bold;
+    font-size: 8pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid #F7EFE6;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu:hover {
+    color: white;
+    font-family: Gandhi Sans Bold;
+    font-size: 8pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid #F7EFE6;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titre1 {
+	color: #393433;
+	background-color: #ffffff;
+	width: 330px;
+	font-family: Gandhi Sans Bold;
+	text-transform: uppercase;
+	font-size: 23pt;
+	letter-spacing: 1px;
+	line-height: 18pt;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	top: -20px;
+	z-index: 3;
+}
+
+.description {
+	color: #393433;
+	font-family: Gandhi Sans;
+	font-size: 11pt;
+	letter-spacing: 1px;
+	width: 730px;
+	line-height: 18pt;
+	text-align: center;
+	padding: 31px;
+	padding-top: 40px;
+	border: 1px solid #393433;
+	position: relative;
+	top: -43px;
+}
+
+.stitre {
+	color: #393433;
+	font-family: Gandhi Sans Bold;
+	font-size: 14pt;
+	margin-top: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.stexte {
+	color: #827B75;
+	font-family: Gandhi Sans;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	width: 280px;
+	text-align: center;
+	padding: 10px;
+}
+
+.bastitre {
+	color: #827B75;
+	font-family: Gandhi Sans Bold;
+	font-size: 12pt;
+	padding: 15px;
+	width: 400px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	border: 1px solid #393433;
+}
+.couv {
+	height: 350px;
+	padding: 15px;
+	border: 1px solid #827B75;
+}
+
+.couvtitre {
+	color: #393433;
+	font-family: Gandhi Sans Bold;
+	font-size: 12pt;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 15px;
+}
+
+.couvtexte {
+	color: #827B75;
+	font-family: Gandhi Sans;
+	font-size: 10pt;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.ncouv {
+	height: 450px;
+	padding: 15px;
+	border: 1px solid #827B75;
+}
+
+.ncouvtitre {
+	color: #393433;
+	font-family: Gandhi Sans Bold;
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-top: 15px;
+}
+
+.nintegral {
+	color: #827B75;
+	font-family: Gandhi Sans Italic;
+	font-size: 10pt;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+.ncouvtexte {
+	color: #827B75;
+	font-family: Gandhi Sans;
+	font-size: 10pt;
+	text-align: left;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.photo {
+	border: 1px solid #393433; 
+	padding: 20px;
+	margin-top: 20px;
+	width: 800px;
+}
