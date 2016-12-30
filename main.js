@@ -6,6 +6,8 @@ app.use('/images', 		express.static(__dirname + '/public/images'));
 app.use('/Polices', 	express.static(__dirname + '/public/polices'));
 app.use('/javascripts', express.static(__dirname + '/public/javascripts'));
 app.use('/pdf', 		express.static(__dirname + '/public/pdf'));
+app.use('/mobile', 		express.static(__dirname + '/public/mobile'));
+
 
 app.set('port', (process.env.PORT || 8080));
 
